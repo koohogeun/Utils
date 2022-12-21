@@ -3,7 +3,7 @@ from multiprocessing import Pool
 
 def function(kwargs):
   # do something
-  retrun None
+  return None
 
 data = [] # must list type
 p = Pool(16, maxtasksperchild=1)
